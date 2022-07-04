@@ -10,6 +10,7 @@ time.sleep(3)
 print("I pick a number.")
 time.sleep(2)
 print("Your task is to guess that number")
+time.sleep(1)
 
 guess = int(input("What is your guess!: "))
 correct_number = random.randint(1,100)
