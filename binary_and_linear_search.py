@@ -3,13 +3,13 @@
 import random
 import time
 
-print("Comparison of binary and linear search")
+print("Comparison of binary and linear search!")
 print("We are looking for a random number in the collection of numbers between 1 and 10000.")
 array = range(1,10000)
 k = random.randint(1,10000)
 n = len(array)
 
-print("Proof that both searches are looking for the same value:")
+print("\nProof that both searches are looking for the same value:")
 print(f"Value that we are looking for is: ", k)
 
 #Linear Search 
@@ -49,13 +49,13 @@ def BinarySearch(array, k, low, high):
 result = BinarySearch(array, k, 0, len(array)-1)
 
 if result != -1:
-    print("In Bibary Search element is present at index " + str(result))
+    print("In Binary Search element is present at index " + str(result))
 else:
     print("Element not found")
  
      
  #time analysis   
-print("Comparison of binary and linear search times")
+print("\nComparison of binary and linear search times")
 start = time.time()
 for k in array:
     LinearSearch(array,n, k)
