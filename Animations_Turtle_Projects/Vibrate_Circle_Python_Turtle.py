@@ -4,8 +4,11 @@ import turtle
 
 t = turtle.Turtle()
 s = turtle.Screen()
+
+#set up the turtle and set the background color
 s.bgcolor("black")
 t.pencolor("turquoise")
+
 a = 0
 b = 0
 t.speed(0)
